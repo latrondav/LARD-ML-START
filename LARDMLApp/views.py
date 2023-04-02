@@ -5,8 +5,6 @@ import pandas as pd
 
 # Create your views here.
 
-
-
 def Predict(request):
     if request.method == 'POST':
         # Get the input data from the request
